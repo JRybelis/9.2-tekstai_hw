@@ -1,0 +1,30 @@
+body {
+    background-color: slategray;
+    display: grid;
+    grid-template-columns: 1fr 500px 500px 1fr;
+}
+h1 {
+    display: inline-block;
+    grid-column: 2/4;
+    margin-top: 2vh;
+    width: 100%;
+    text-align: center;
+}
+form {
+    display: inline-block;
+    grid-column: 2/4;
+    margin-top: 4vh;
+    width: 100%;
+}
+textarea {
+    display: inline-block;
+    width: 80%;
+    resize: vertical; 
+    height: 50vh;
+}
+main {
+    display: inline-block;
+    grid-column: 2/4;
+    margin-top: 4vh;
+    text-align: left;
+}
