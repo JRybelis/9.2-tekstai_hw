@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Parsing</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/custom.css">
+</head>
+<body>
+    <h1>Parse your text</h1>
+    <form>
+        <textarea placeholder="Your text goes here..."></textarea>
+        <input type="button" value="Parse" onclick="submitText()">
+        <input type="reset" value="Start over" onclick="resetField()">
+    </form>
+    <main>
+        <h2>Your text - deconstructed:</h2>
+        <div class="row-left"> Paragraph placeholder </div>
+        <div class="row-left"> Sentence placeholder </div>
+        <div class="row-left"> word placeholder </div>
+        <div class="row-left"> proper noun placeholder </div>
+        <div class="row-right"> text symbol placeholder </div>
+        <div class="row-right"> letter placeholder </div>
+        <div class="row-right"> number placeholder </div>
+        <div class="row-right"> integer placeholder </div>
+        
+    </main>
+
+    <script src="./js/main.js" ></script>
+    <script src="./js/textParsing.js" ></script>
+</body>
+</html>
